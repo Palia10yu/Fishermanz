@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-public class SimpleFrameAnimator : MonoBehaviour
+public class SimpleFrameAnimation : MonoBehaviour
 {
     public Sprite[] frames;
     public float fps = 12f;
