@@ -5,6 +5,7 @@ using UnityEngine;
 public class OrcaDamage : MonoBehaviour
 {
     // Start is called before the first frame update
+    static string enemyname = "Orca";
     public int damage = 2;
     void Start()
     {
